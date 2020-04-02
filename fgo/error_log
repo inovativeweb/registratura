@@ -1,0 +1,7 @@
+[06-May-2019 09:24:33 Europe/Bucharest] Backtrace from fatal error 'Object of class stdClass could not be converted to string' at /home/r53562busi/public_html/brokers/thorr_f/f_string.php 40: /home/r53562busi/public_html/brokers/fgo/index.php 49 calling prea() | /home/r53562busi/public_html/brokers/thorr_f/f_string.php 62 calling h() | /home/r53562busi/public_html/brokers/thorr_f/f_string.php 31 calling h_xml() | /home/r53562busi/public_html/brokers/thorr_f/f_string.php 40 calling str_replace()
+[06-May-2019 11:13:23 Europe/Bucharest] Backtrace from warning 'Illegal string offset 'List'' at /home/r53562busi/public_html/brokers/fgo/index.php 8: 
+[06-May-2019 11:24:01 Europe/Bucharest] Backtrace from warning 'Invalid argument supplied for foreach()' at /home/r53562busi/public_html/brokers/fgo/index.php 68: 
+[06-May-2019 11:24:25 Europe/Bucharest] Backtrace from warning 'Invalid argument supplied for foreach()' at /home/r53562busi/public_html/brokers/fgo/index.php 68: 
+[06-May-2019 11:28:54 Europe/Bucharest] Backtrace from warning 'Invalid argument supplied for foreach()' at /home/r53562busi/public_html/brokers/fgo/index.php 68: 
+[06-May-2019 11:29:09 Europe/Bucharest] Backtrace from warning 'Invalid argument supplied for foreach()' at /home/r53562busi/public_html/brokers/fgo/index.php 68: 
+[06-May-2019 11:29:20 Europe/Bucharest] Backtrace from warning 'Invalid argument supplied for foreach()' at /home/r53562busi/public_html/brokers/fgo/index.php 68: 

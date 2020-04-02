@@ -1,0 +1,65 @@
+﻿<!-- Apelul pentru publicare oferta facut din aplicatii precum POSTMAN, SoapUI, etc. . -->
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:imoadmin" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <SOAP-ENV:Body>
+    <ns1:publica_oferta>
+      <input xsi:type="ns1:PublicaOfertaRequest">
+        <id_str xsi:type="xsd:string">0:12345</id_str>
+        <operatie xsi:type="xsd:string">ADD</operatie>
+        <sid xsi:type="xsd:string">sid_generat_la_apelul_de_login</sid>
+        <!-- continutul tagului ofertaxml trebuie sa fie o sectiune CDATA pentru a fi interpreatat sa string -->
+        <ofertaxml xsi:type="xsd:string"><![CDATA[
+<oferta tip="apartament" versiune="3">
+                        <id2>12345</id2>
+                        <idstr/>
+                        <judet>10</judet>
+                        <localitate>13822</localitate>
+                        <zona>750</zona>
+                        <portal>1</portal>
+                        <tiplocuinta>110</tiplocuinta>
+                        <devanzare>1</devanzare>
+                        <dataadaugare>1</dataadaugare>
+                        <datamodificare>1</datamodificare>
+                        <destinatie>466</destinatie>
+                        <idnum/>
+                        <agent>123</agent>
+                        <tipimobil>121</tipimobil>
+                        <ansamblurezidential>0</ansamblurezidential>
+                        <tipcompartimentare>26</tipcompartimentare>
+                        <demisol>0</demisol>
+                        <dotari>20 142 145</dotari>
+                        <finisaje>55 56</finisaje>
+                        <deinchiriat>0</deinchiriat>
+                        <mansarda>0</mansarda>
+                        <nrbucatarii>1</nrbucatarii>
+                        <nrnivele>4</nrnivele>
+                        <pretnegociabil>1</pretnegociabil>
+                        <pretvanzare>125000</pretvanzare>
+                        <monedavanzare>172</monedavanzare>
+                        <patratecaroiaj>172</patratecaroiaj>
+                        <etaj>47</etaj>
+                        <nrcamere>1</nrcamere>
+                        <tara>1048</tara>
+                        <pretinchiriere>464000</pretinchiriere>
+                        <monedainchiriere>172</monedainchiriere>
+                        <vicii>
+                            <lang id="1048">Zm9hcnRlIHVyYXQ=</lang>
+                        </vicii>
+                        <pretinchiriereunitar>464000</pretinchiriereunitar>
+                        <monedainchiriereunitar>172</monedainchiriereunitar>
+                        <comisioncumparator>
+                            <lang id="1048">Zm9hcnRlIHVyYXQ=</lang>
+                        </comisioncumparator>
+                        <structurarezistenta>138</structurarezistenta>
+                        <subsol>0</subsol>
+                        <regimhotelier>0</regimhotelier>
+                        <pretfaratva>0</pretfaratva>
+                        <utilitati>21 22 28 32 34 44 91</utilitati>
+                        <caroiaj>29085525</caroiaj>
+                        <imagini nrimagini="1">...</imagini>
+                    </oferta>]]>
+        </ofertaxml>
+      </input>
+    </ns1:publica_oferta>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

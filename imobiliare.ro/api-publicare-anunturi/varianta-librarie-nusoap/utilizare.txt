@@ -1,0 +1,8 @@
+Cod PHP functional pentru demonstrarea functionalitatii API publicare imobiliare.ro
+---------------------------------------------------------------------------
+
+ACEST COD ESTE PUS LA DISPOZITIE CU TITLU DEMONSTRATIV, SI NU ESTE
+SUB NICI O FORMA INDICAT SA FIE UTILIZAT IN PRODUCTIE.
+
+REALMEDIA NETWORK SA NU ISI ASUMA NICI O VINA PENTRU EVENTUALELE PAGUBE
+PRODUSE DE ACEST SCRIPT.

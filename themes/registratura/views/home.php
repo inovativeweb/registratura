@@ -1,0 +1,1 @@
+<?php redirect(302,'/documente/');

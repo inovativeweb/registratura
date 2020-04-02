@@ -1,0 +1,8 @@
+exemple-xml-oferte		- exemple de XML transferate catre imobiliare.ro spre publicare
+varianta-extensie-php5-soap	- cod functional ce utilizeaza extensia SOAP din PHP5
+campuri-imobiliare-ro.ods	- lista campuri imobiliare.ro API preluare si publicare oferte, format OpenOffice Calc
+campuri-imobiliare-ro.xls	- lista campuri imobiliare.ro API preluare si publicare oferte, format Excel 2000/xP
+continut.txt			- acest fisier
+ghid-api-publicare.pdf		- documentatia pentru API publicare oferte pe imobiliare.ro
+----
+suport implementare: suport-api@imobiliare.ro

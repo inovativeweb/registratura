@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<oferta tip="spatiu" versiune="3">
+ 
+  <anconstructie>2000</anconstructie>
+  <tipimobil>429</tipimobil>
+  <tipspatiu>422</tipspatiu>
+ 
+  <judet>3</judet>
+  <localitate>1401</localitate>
+  <zona>999</zona>
+  <tara>1048</tara>
+
+  <suprafatautila>8700</suprafatautila>
+  <agent>3</agent>
+  <altecaracteristici>438</altecaracteristici>
+  <altedetalii>
+    <lang id="1048">YWRn</lang>
+  </altedetalii>
+  <altedetaliipret>
+    <lang id="1048">YWdk</lang>
+  </altedetaliipret>
+  <altedetaliizona>425 428</altedetaliizona>
+  <autorizatiiavize>
+    <lang id="1048">ZGY=</lang>
+  </autorizatiiavize>
+  <codpostal>123654</codpostal>
+  <compartimentarenivel>
+    <lang id="1048">YXI=</lang>
+  </compartimentarenivel>
+  <demisol>1</demisol>
+  <destinatieanterioara>
+    <lang id="1048">c2RmZw==</lang>
+  </destinatieanterioara>
+  <destinatierecomandata>
+    <lang id="1048">ZGZn</lang>
+  </destinatierecomandata>
+  <dotari>396 400 404</dotari>
+  <finisaje>368 375 391</finisaje>
+  <imagini nrimagini="0" />
+  <inaltimespatiu>90</inaltimespatiu>
+  <deinchiriat>1</deinchiriat>
+  <linkextern>http://www.youtube.com/watch?v=PcV4LVhSRLg</linkextern>
+  <mansarda>1</mansarda>
+  <monedainchiriere>172</monedainchiriere>
+  <monedainchiriereunitar>172</monedainchiriereunitar>
+  <monedavanzare>172</monedavanzare>
+  <monedavanzaremp>172</monedavanzaremp>
+  <nrgaraje>10</nrgaraje>
+  <nrgrupurisanitare>100</nrgrupurisanitare>
+  <nrincaperi>90</nrincaperi>
+  <nrparcari>100</nrparcari>
+  <nrnivele>13</nrnivele>
+  <nrnivelesubterane>1</nrnivelesubterane>
+  <nrterase>3</nrterase>
+  <pretinchiriere>55454</pretinchiriere>
+  <pretinchiriereunitar>5544</pretinchiriereunitar>
+  <pretnegociabil>1</pretnegociabil>
+  <pretvanzare>9788787</pretvanzare>
+  <pretvanzaremp>332121</pretvanzaremp>
+  <servicii>419</servicii>
+  <stadiuconstructie>551</stadiuconstructie>
+  <structurarezistenta>432</structurarezistenta>
+  <suprafataconstruita>9000</suprafataconstruita>
+  <suprafatacurte>1600</suprafatacurte>
+  <suprafataterase>26</suprafataterase>
+  <suprafatateren>12000</suprafatateren>
+  <pretfaratva>1</pretfaratva>
+  <utilitati>342 347 355 365</utilitati>
+  <devanzare>1</devanzare>
+  <vecinatati>
+    <lang id="1048">YXNk</lang>
+  </vecinatati>
+  <vicii>
+    <lang id="1048">YWRmZw==</lang>
+  </vicii>
+  <vitrina>0</vitrina>
+  <titlu>
+    <lang id="1048">cmdh</lang>
+  </titlu>
+  <descriere>
+    <lang id="1048">Z2FzZGc=</lang>
+  </descriere>
+  <video>http://www.youtube.com/watch?v=PcV4LVhSRLg</video>
+  <dataexp>1316034000</dataexp>
+  <siteagentie>1</siteagentie>
+  <arepdf>1</arepdf>
+  <caroiaj>29045537</caroiaj>
+  <comisionzero>0</comisionzero>
+  <comisioncumparator>    <lang id="1048">MiU=</lang>  </comisioncumparator>
+  <disp_prop>
+    <lang id="1048">YWVy</lang>
+  </disp_prop>
+  <portal>1</portal>
+  <imoradar24>1</imoradar24>
+  <comisionvanzator>1.4</comisionvanzator>
+</oferta>

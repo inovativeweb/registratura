@@ -1,0 +1,194 @@
+.navbar {  margin-bottom: 20px;}
+.genSelTlist{ cursor:pointer;}
+
+
+.border_documente {
+    border : 2px solid #b5cc18
+}
+
+.hide {
+    display: none !important;}
+#adrese_del_tab,#conturi_del_tab,#transportatori_del_tab,#documente_del_tab{display:none;}
+
+.iframe_edit {height: 600px; border: 0}
+.ui-widget-headerXXX { background: none;}
+
+.hide {display: none;}
+
+
+.logo_img {
+    width: 90px; height: 68px; object-fit: cover;
+}
+
+.ThfGalleryEditorDropZoneTitle{font-size: 14px;}
+.bstBrowseWrapper{ display: none;}
+.ThfGalleryEditorDropZone{margin-bottom:0;}
+
+.selectable{ color: #ddd; font-size: 22px;}
+.selectable:hover{ color: #00a8d6}
+
+@media only screen and (max-width: @computerBreakpoint) {
+    html.ios {
+        overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+.border_purple {
+    font-weight: bold;
+    color: purple;
+    font-size: 1.5em;
+    height: 2em;
+}
+.add_afacere_slider .step {
+        height: 50px;
+    vertical-align: middle; text-align: center;
+
+}
+.line_textarea {
+    position: absolute;
+    left: 30px;
+    right: 0;
+    font-size: 14px;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    line-height: 31px;
+    height: 124px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: #595959;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: initial;
+    padding-right: 40px;
+    padding-left: 5px;
+    width: -moz-calc(100% - 30px);
+    width: -webkit-calc(100% - 30px);
+    width: -o-calc(100% - 30px);
+    width: calc(100% - 30px);
+}
+
+.line_input {
+    position: absolute;
+    left: 30px;
+    right: 0;
+    font-size: 14px;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    line-height: 31px;
+    height: 31px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: #595959;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: initial;
+    padding-right: 40px;
+    padding-left: 5px;
+    width: -moz-calc(100% - 30px);
+    width: -webkit-calc(100% - 30px);
+    width: -o-calc(100% - 30px);
+    width: calc(100% - 30px);
+}
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.step2 {
+    display: inline-block;
+}
+
+
+.scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.step2 {
+    flex: 0 0 auto;
+    margin-right: 3px;
+}
+
+
+.step2 {
+    border: 1px solid white;
+    width: 150px;
+    height: 75px;
+    background: black;
+}
+
+.scrolling-wrapper, .scrolling-wrapper-flexbox {
+    height: 75px;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+&::-webkit-scrollbar {
+     display: none;
+ }
+}
+
+
+
+.checkbox label:after,
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+}
+
+.radio .cr {
+    border-radius: 50%;
+}
+
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+.radio .cr .cr-icon {
+    margin-left: 0.04em;
+}
+
+.checkbox label input[type="checkbox"]:not([name=remember_me_f]),
+.radio label input[type="radio"] {
+    display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.radio label input[type="radio"] + .cr > .cr-icon {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.radio label input[type="radio"]:checked + .cr > .cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled + .cr,
+.radio label input[type="radio"]:disabled + .cr {
+    opacity: .5;
+}
